@@ -85,3 +85,8 @@ An interactive Streamlit app allows users to input sonar signal values and recei
 
 ## App Link : https://sonar-rock-vs-mine-ml.streamlit.app/
 
+## Feature Selection Experiment
+To improve interpretability and reduce dimensionality, a reduced model was trained using only the top 10 most important features identified via Logistic Regression coefficients.  
+While accuracy decreased from 80% to 71%, recall for mine detection remained relatively high at 77%, indicating that a small subset of sonar features captures most of the predictive signal.
+
+
