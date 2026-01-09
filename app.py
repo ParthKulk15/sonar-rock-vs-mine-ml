@@ -23,10 +23,8 @@ if st.button("Predict"):
 
     if prediction == 1:
         st.error(f"Mine detected ⚠️ (Confidence: {probability:.2f})")
-    elif probability < 0.65:
-         st.warning("⚠️ Low confidence prediction")
     else: 
-         st.success(f"Rock detected ✅ (Confidence: {1 - probability:.2f})")
+        st.success(f"Rock detected ✅ (Confidence: {1 - probability:.2f})")
        
    
 
