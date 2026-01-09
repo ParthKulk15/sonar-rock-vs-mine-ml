@@ -1,7 +1,7 @@
 # sonar-rock-vs-mine-ml
 End-to-end ML project using Logistic Regression and Streamlit
 
-# Sonar Rock vs Mine Prediction 🚢⚠️
+# Sonar Rock vs Mine Prediction 
 
 ## Overview
 This is an end-to-end machine learning project that classifies sonar signals as **Rock** or **Naval Mine** using supervised learning techniques.
@@ -19,11 +19,15 @@ This is an end-to-end machine learning project that classifies sonar signals as 
 - Deployment using Streamlit
 
 ## Model Performance
-| Model | Accuracy | Recall (Mine) |
-|------|----------|---------------|
-| Logistic Regression | 80% | 81% |
-| SVM | 83% | 77% |
-| KNN | 83% | 82% |
+Logistic Regression : 
+  accuracy : 80%
+  recall : 81%
+SVM : 
+  accuracy : 83%
+  recall : 77%
+KNN : 
+  accuracy : 83%
+  recall : 82%
 
 ## Feature Importance
 Logistic Regression coefficients were analyzed to identify the most influential sonar features contributing to mine detection.
